@@ -1,0 +1,15 @@
+.side-icons {
+    margin: 14px 2px;
+    box-sizing: border-box;
+}
+
+.side-icons:hover {
+    background-color: #83C5BE;
+    color: #FFF;
+    border: .5px solid #FFFFFF;
+    width:72px;
+}
+src:hover {
+    cursor: pointer;
+    background-color: #FFF;
+}

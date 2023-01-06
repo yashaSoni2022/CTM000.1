@@ -1,0 +1,91 @@
+app-items {
+    margin-left: 0%;
+ }
+ i {
+   margin-left: 10px;
+    font-size: 24px;
+    color: #0C747E;
+    list-style: none;
+ }
+ 
+ a:hover {
+    cursor: pointer;
+ }
+ .savebtn {
+    margin-left: 550%;
+   margin-top: 80px;
+   cursor: pointer;
+ }
+ .dropdown-toggle{
+   color:#0C747E;
+   cursor: pointer;
+ }
+
+::placeholder{
+   font-size: 14px;
+   font-weight: 600;
+}
+.dropdown-menu{
+   margin-top: 50px;
+}
+
+.col-md-5 span{
+   color: rgb(231, 15, 15);
+   font-size: 18px;
+}
+ span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0C747E;
+ }
+ .card-header{
+   background-color:#0C747E;
+   color: #FFFFFF;
+ }
+ .card{
+    margin-top: 50px;
+    margin-left: 480px;
+    height: 220px;
+    border: 2.2px  solid #0C747E;
+    border-radius: 15px;
+ }
+ul{
+   margin-top: 50px;
+}
+ .icon:hover{
+   cursor: pointer;
+ }
+ .row{
+   margin-right: 20px;
+ }
+ .vector{
+   margin: 5px 22px;
+ }
+ #tooltipText{
+    position: absolute;
+    top: 0px;
+    transform: translateX(-70%);
+    background-color: #000;
+    color: #fff;
+    padding: 4px 6px;
+    white-space: nowrap;
+    border-radius: 2px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+ }
+ #tooltipText::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    border: 8px solid;
+    border-color: #0000 #0000 #000 #0000 ;
+ }
+ .content:hover #tooltipText{
+    top: 40px;
+    visibility: visible;
+    opacity: 1;
+ }
+ 

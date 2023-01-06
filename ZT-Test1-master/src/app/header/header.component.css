@@ -1,0 +1,25 @@
+.navbar-brand{
+    font-size: 22px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family: ROBOTO-MEDIUM;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.navbar {
+    background-color: #0C747E;
+}
+.icons {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.icons li {
+    margin-right: 15px;
+}
+a:hover {
+    cursor: pointer;
+}
+.col-md-6{
+    margin:12px 4px;
+}

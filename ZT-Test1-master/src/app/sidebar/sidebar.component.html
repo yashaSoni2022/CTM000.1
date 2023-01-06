@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="col">
+        <div class="side-icons" *ngFor="let sidebar of sidebarArray">
+            <a type="button" (click)="sidebarItemClick(sidebar.title)">
+                <img src="{{sidebar.icon}}" width="70px">
+            </a> 
+        </div>
+    </div>
+</div>
